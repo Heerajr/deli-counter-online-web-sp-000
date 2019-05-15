@@ -17,5 +17,4 @@ def take_a_number(katz_deli,customer)
       katz_deli.each_with_index
     puts "Welcome, #{customer}. You are number #{index} in line."
   end
-  end
 end
