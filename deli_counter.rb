@@ -14,9 +14,7 @@ end
 
 def take_a_number(katz_deli,customer)
     if katz_deli == []
-      katz_deli.each_with_index do|customer,index|
-        katz_deli<<"#{customer}#{index}"
-      end
+      katz_deli.push(customer)
     puts "Welcome, #{customer}. You are number #{index} in line."
   end
 end
