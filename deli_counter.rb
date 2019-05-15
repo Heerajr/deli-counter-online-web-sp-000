@@ -15,6 +15,6 @@ end
 def take_a_number(katz_deli,customer)
     if katz_deli == []
       katz_deli.push(customer)
-    puts "Welcome, #{customer}. You are number #{index} in line."
+    puts "Welcome, #{customer}. You are number  in line."
   end
 end
