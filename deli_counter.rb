@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,customer)
-    katz_deli == []
+    katz_deli = []
     katz_deli.each_with_index do |customer,index|
     katz_deli<< "#{index+1}. #{customer}"
     puts "Welcome, #{customer}. You are number #{index} in line."
