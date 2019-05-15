@@ -20,6 +20,5 @@ def take_a_number(katz_deli,customer)
     new_customer = []
     new_customer<<katz_deli.push(customer)
     puts "#{new_customer.join(",")}"
-
   end
 end
