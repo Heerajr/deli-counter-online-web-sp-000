@@ -19,6 +19,6 @@ def take_a_number(katz_deli,customer)
   else
     new_customer = []
     new_customer<<katz_deli.push(customer)
-    puts "Welcome, #{customer} . You are number #{new_customer.length} in line.
+    puts "Welcome, #{customer} . You are number #{new_customer.length} in line."
   end
 end
