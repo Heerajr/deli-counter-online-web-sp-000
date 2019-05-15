@@ -18,6 +18,7 @@ def take_a_number(katz_deli,customer)
     puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
   else katz_deli ==[]
     katz_deli<<katz_deli.push(customer)
+    puts "#{katz_deli.join(",")}"
 
   end
 end
