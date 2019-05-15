@@ -14,7 +14,9 @@ end
 
 def take_a_number(katz_deli,customer)
     if katz_deli == []
-      katz_deli.each_with_index
+      katz_deli.each_with_index do
+        |customer,index|
+      end
     puts "Welcome, #{customer}. You are number #{index} in line."
   end
 end
