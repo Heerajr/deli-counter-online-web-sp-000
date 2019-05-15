@@ -6,10 +6,16 @@ def line(katz_deli)
   else
     new_line = []
     katz_deli.each_with_index do |customers,index|
-      new_line << "index. customers"
-    end
-    new_line.join(",")
-    puts"The line is currently: #{customers}"
-    end
+    new_line << "#{index+1}. #{customers}"
+  end
+    puts"The line is currently: #{new_line.join(" ")}"
+  end
+end
+
+def take_a_number(katz_deli,customer)
+  if katz_deli == []
+    katz_deli.each_with_index do |customer,index|
+    katz_deli<<"#{index+1}. #{customer}"
+    puts "Welcome, #{customer}. You are number #{index} in line."
   end
 end
