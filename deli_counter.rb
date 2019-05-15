@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli,customer)
     if katz_deli == []
-    katz_deli.each_with_index do |customer|
+    katz_deli.each_with_index do |customer,index|
     katz_deli<< "#{customer}#{index}"
     puts "Welcome, #{customer}. You are number #{index} in line."
   end
